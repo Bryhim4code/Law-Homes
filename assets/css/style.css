@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+
+nav {
+  height: 15vh;
+  width: 100%;
+  background-color: #002050;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 40px;
+  padding: 10px 20px;
+}
+
+.logo-text {
+  font-style: normal;
+  font-size: 30px;
+  color: aliceblue;
+}
+nav ul {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+}
+
+nav ul li {
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  font-size: 15px;
+  color: aliceblue;
+  line-height: 15px;
+  letter-spacing: normal;
+  text-align: start;
+  font-family: "poppins";
+  font-weight: 700;
+}
+
+/* ========================= section landing ============================== */
+
+.container {
+  height: 85vh;
+  width: 100%;
+  background-color: #002050;
+}
+
+.landing-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-text h1 {
+  font-size: 90px;
+  /* margin-bottom: 50px; */
+  line-height: 104px;
+  color: #fff;
+  text-align: center;
+  margin-top: 170px;
+  font-family: "Playfair Display";
+  font-weight: normal;
+}
+.landing-text p {
+  font-size: 24px;
+  text-align: center;
+  color: #c1cedf;
+  padding: 20px;
+  font-family: "poppins";
+}
+.landing-text span {
+  line-height: 34px;
+  letter-spacing: -1px;
+  color: #00d8cc;
+}
+
+.svg-cube {
+  width: 90%;
+  height: 80px;
+  margin-top: 190px;
+  margin: auto;
+}
+
+/* ======= news-container ===== */
+.news-container {
+  height: 69vh;
+  background-color: #f7fbff;
+  padding: 30px;
+}
+
+.header {
+  padding: 10px 0;
+}
+
+.header h1 {
+  color: #002050;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.news-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.news-card {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.myimg {
+  width: 105%;
+  height: 100%;
+  /* background-size: contain; */
+}
+
+.image-box {
+  width: 400px;
+  height: 176px;
+  /* border: 2px solid red; */
+}
+.card-text {
+  margin-left: 30px;
+}
+
+.date {
+  color: #8b9c9b;
+  line-height: 16px;
+  font-family: "poppins";
+  font-size: 12px;
+}
+
+.content {
+  margin-top: 15px;
+  width: 75%;
+  font-size: 19px;
+  color: #002050;
+  line-height: 29px;
+  font-family: "poppins";
+}
+
+.action1 {
+  margin-top: 70px;
+  padding: 15px 50px;
+  border: none;
+  color: #002050;
+  background-color: #a4f8f3;
+  font-size: 14px;
+  text-align: start;
+}
+
+/* 
+@media (min-width: 816px) {
+  .news-cards {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+  }
+} */
+/* ======================== */
+
+.about-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media (max-width: 1104px) {
+  .about-items {
+    display: block;
+  }
+
+  .about-image {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.about-sec {
+  height: 100vh;
+}
+
+.about-text {
+  margin-left: 119px;
+  padding: 10px;
+  width: 80%;
+}
+.header-line {
+  display: flex;
+  width: 29%;
+}
+
+.header-line p {
+  text-align: left;
+  font-size: 32px;
+  font-size: "poppins";
+}
+
+.line {
+  height: 1px;
+  background-color: #00d8cc;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.about-text h1 {
+  margin-top: 20px;
+  font-size: 44px;
+  color: #002050;
+  width: 100%;
+}
+.about-text p {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #54657d;
+  width: 95%;
+}
+
+.about-image {
+  height: auto;
+  width: 676px;
+}
+
+.btn1,
+.btn2 {
+  margin-top: 28px;
+  border: none;
+  background-color: #a4f8f3;
+  color: #002050;
+  font-size: 14px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.btn2 {
+  background-color: #fff;
+  border: 1px solid black;
+}

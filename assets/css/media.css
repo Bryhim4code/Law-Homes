@@ -1,0 +1,49 @@
+/* hide nav ul on smaller screen */
+@media (max-width: 1104px) {
+  nav ul {
+    display: none;
+  }
+}
+
+/* display block for news */
+@media (max-width: 1107px) {
+  .news-container {
+    height: auto;
+    background-color: #f7fbff;
+    padding: 30px;
+  }
+
+  .news-card {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  .myimg {
+    width: 90%;
+    height: 300px;
+    /* background-size: contain; */
+  }
+  .card-text {
+    margin-left: 39px;
+    margin-top: 20px;
+  }
+  .date {
+    /* color: #8b9c9b; */
+    color: #fff;
+    line-height: 16px;
+    font-family: "poppins";
+    font-size: 12px;
+  }
+
+  .content {
+    margin-top: 15px;
+    width: 75%;
+    font-size: 19px;
+    /* color: #002050; */
+    color: #f7fbff;
+    line-height: 29px;
+    font-family: "poppins";
+  }
+}
